@@ -1,0 +1,239 @@
+/*************
+General Styling
+*************/
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+/*************
+Footer
+*************/
+
+.main-footer {
+	display: flex;
+	color: white;
+	height: 50px;
+	background: slategrey;
+	justify-content: center;
+
+}
+
+/*************
+Landing Page
+*************/
+
+.index-header {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	background: lightgray;
+}
+
+.index-header h1, a {
+	text-align: center;
+	color: black;
+	text-decoration: none;
+}
+
+.index-nav {
+	display: flex;
+	justify-content: center;
+
+  
+}
+
+.index-nav ul {
+	display: flex;
+	flex-direction: column;
+	padding-left: 0;
+}
+
+.index-nav li {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 15px;
+	width: 200px;
+	text-align: center;
+}
+
+.index-nav a {
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 1.25em;
+	background-color: tomato;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 20px;
+}
+
+.index-nav a:hover, a.selected {
+	background-color: gold;
+}
+
+/*************
+Main Nav
+*************/
+
+.main-nav {
+	text-align: center
+		
+}
+
+.main-nav ul {
+	margin: 0 10px;
+	padding: 0;
+}
+
+.main-nav li {
+	text-decoration: none;
+	color: #000;
+}
+
+/*************
+Letters Page
+*************/
+
+.letters h2 {
+	text-align: center;
+}
+
+.alphabet-list {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
+
+.alphabet-list ul {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0;
+}
+
+.alphabet-list li {
+	list-style: none;
+	font-size: 1.5em;
+	color: ghostwhite;
+	background: royalblue;
+	border-radius: 5px;
+	width: 75px;
+	text-align: center;
+	margin: 0 5px 5px 5px;
+}
+
+alphabet-list ul:first-child {
+	align-items: center;
+
+}
+
+alphabet-list ul:nth-child(2) li {
+	flex-direction: row;
+}
+
+
+/*.type_alphabet label {
+	display: inline-block;
+	width: 20px;
+}
+
+
+.type_alphabet input {
+	width: 50px;
+	text-align: right;
+}*/
+
+
+/*************
+Numbers Page
+*************/
+
+.numbers-main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.numbers-main h2 {
+	text-align: center;
+}
+
+.numbers-list ol {
+	display: flex;
+	flex-direction: column;
+	padding-left: 0;
+	text-align: center;
+	
+}
+
+.numbers-list ol li {
+	/*color: ghostwhite;*/
+	background: royalblue;
+	width: 100px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+
+
+}
+
+/*************
+Colors Page
+*************/
+
+#gray {
+  color:gray;
+}
+
+#white {
+/*Black text outline here*/
+  border: none;
+  background:lightgrey;
+  color: white;
+	width: 60px;
+}
+  
+#brown {
+  color: brown;
+}
+
+#red {
+  color: red;
+}
+
+#green {
+  color: green;
+}
+
+#blue {
+  color: blue;
+}
+
+#yellow {
+  color: yellow;
+}
+
+#orange {
+  color: orange;
+}
+
+#purple {
+  color: purple;
+}
+
+#pink {
+  color: pink;
+}
+
+.number table {
+  border-spacing: 1.5em;
+  text-align: right;
+}
+
+
+
+/*************
+Media Queries
+*************/

@@ -1,23 +1,32 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<!DOCTYPE html>
+<html>
+  <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset=“utf-8”>
+    <title>I want to learn...</title>
+    <link href="CSS/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="../v1.32/CSS/style.css" rel="stylesheet">
+  </head>
+  
+	<body>
+	
+			<header class="index-header">
+				<h1>I want to learn...</h1>
+				<nav class="index-nav">
+					<ul>
+					<li><a href="SilasLetters.html">Letters</a></li>
+					<li><a href="SilasNumbers.html">Numbers</a></li>
+					<li><a href="SilasMusic.html">Music</a></li>
+					<li><a href="SilasColors.html">Colors</a></li>
+					<li><a href="SilasShows.html">TV Shows</a></li>
+				</ul>
+				</nav>
+			</header>
+		
+			<footer class="main-footer">
+				<p>&#169;2016 Ward Wide Web</p>
+			</footer>
+		
+  </body>
+</html>                                                         						 			  	

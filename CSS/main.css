@@ -1,0 +1,31 @@
+.wrapper {
+  box-sizing: border-box;
+  width: 100%;
+}
+.famCalendar {
+  width: 80%;
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+
+.dailyVerse, .countdownTimer, .weatherForecast {
+  width: 18%;
+  float: right;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.dailyVerse {
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20px   
+}
+
+.food-menu th, .food-menu td {
+  width: 20%;
+  border: 2px solid black;
+}
+
+.food-menu {
+  min-width: 500px;
+}

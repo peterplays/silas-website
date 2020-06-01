@@ -1,0 +1,25 @@
+body {
+  box-sizing: border-box;
+  background-color: coral;
+}
+
+div {
+  background-color: aqua;
+  border: 1px solid black;
+  padding: 0;
+  width: 75%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.cardContainer {
+  width: 300px;
+  height: 300px;
+  font-size: 30px;
+  font-weight: 700;
+  ;
+}
+
+.pageHeader {
+  margin-bottom: 25px;
+}
